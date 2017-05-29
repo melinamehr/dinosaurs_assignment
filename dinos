@@ -1,0 +1,17 @@
+1. SELECT COUNT(id) FROM dinos;
+
+2. SELECT name FROM dinos where period LIKE 'Jurassic';
+
+3. SELECT SUM(length) FROM dinos where period LIKE 'Cretaceous';
+
+4. SELECT name FROM dinos where period LIKE 'Jurassic' ORDER BY name;
+
+5.SELECT name FROM dinos WHERE diet LIKE 'Herbivorous' AND t_order like 'Saurischia';
+
+
+6.Dinosaur names are hard to remember. Find the shortest dinosaur, and rename it Shortie.
+
+7. It's the first day of Dino School, and we're doing roll call.
+Find the alphabetically first dinosaur, so we can make sure they're present for class.
+
+8.Rename the five longest dinosaurs The Famous Five.
